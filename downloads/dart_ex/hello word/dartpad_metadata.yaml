@@ -1,0 +1,7 @@
+# »¡©ú¦¹ yaml ÀÉ®×©Ò¤Ş¥Îµ{¦¡ªº¥Øªº
+name: use Dart to implement æº«åº¦è½‰æ› Method
+# ¤Ş¥Î¼Ò¦¡¬°¯Â dart ©Î html ¼Ò¦¡
+mode: dart
+# ©Ò¥]§t¤Ş¤Jªºµ{¦¡¦WºÙ, ­Y¬°¯Â dart «h¥u¥]§t dart µ{¦¡, ­Y¬° html ¼Ò¦¡, «h¥[¤J index.htm »P style.css
+files:
+  - name: æº«åº¦è½‰æ›.dart

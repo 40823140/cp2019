@@ -1,12 +1,43 @@
-<h1>About</h1>
-<pre class="brush:dart;auto-links:false;toolbar:false" contenteditable="false">main() {
-  for (int i = 0; i &lt; 5; i++) {
-    print('hello $i');
-  }
-  print('hello 中文');
- }</pre>
-<p>dartpad:<a href="http://mde.tw/dartpad/?id=8382f75d9c24cf18a23a332eff41558b">http://mde.tw/dartpad/?id=8382f75d9c24cf18a23a332eff41558b</a></p>
-<p>gist:<a href="https://gist.github.com/40823140/8382f75d9c24cf18a23a332eff41558b">https://gist.github.com/40823140/8382f75d9c24cf18a23a332eff41558b</a></p>
-<p>yes:<a href="https://gist.github.com/40823140/1c1ef7271f85d89ea262384c1354d554">https://gist.github.com/40823140/1c1ef7271f85d89ea262384c1354d554</a></p>
-<p>no:<a href="https://gist.github.com/40823140/c052a447bf4524896f14fb041a591ece">https://gist.github.com/40823140/c052a447bf4524896f14fb041a591ece<img alt="" height="345" src="/images/無阻尼擷取.PNG" width="578"/></a></p>
-<p><img alt="" height="345" src="/images/有阻尼擷取.PNG" width="587"/><iframe height="1000" src="https://dartpad.dartlang.org/embed-dart.html?id=1c1ef7271f85d89ea262384c1354d554&amp;theme=dark" width="1200"></iframe></p>
+<h1>dart</h1>
+<p></p>
+<p></p>
+<script>
+function getDart(dirname){
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823140&gh_repo=CP2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+    document.getElementById("iframe").src = source ;
+}
+
+function getHtmlDart(dirname){
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=40823140&gh_repo=CP2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+function getFlutter(dirname){
+    source = "https://dartpad.github.io/embed-flutter.html?gh_owner=40823140&gh_repo=CP2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+function largest(){
+document.getElementById("iframe").width = document.body.clientWidth ;
+document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
+}
+
+function original(){
+document.getElementById("iframe").width = 800 ;
+document.getElementById("iframe").height = 600 ;
+}
+</script>
+<!-- 取 Dart 程式的按鈕 -->
+<h4>純 Dart 程式</h4>
+<p><button onclick="getDart('hello word')">hello word</button></p>
+<p><button onclick="getDart('hello 中文')">helle 中文</button></p>
+<p><button onclick="getDart('阻尼')">阻尼</button></p>
+<p><button onclick="getDart('溫度轉換')">溫度轉換</button></p>
+<h4>Html 程式</h4>
+<p><button onclick="getHtmlDart('roc_flag')">ROC Flag</button> <button onclick="getHtmlDart('grid')">Grid</button> <button onclick="getHtmlDart('xyplot')">X-Y Plot</button> <button onclick="getHtmlDart('slithery')">Slithery</button></p>
+<p><button onclick="getHtmlDart('temperature-1')">temperature-1</button></p>
+<h4>Flutter 程式</h4>
+<p><button onclick="getFlutter('flutter1')">Flutter1</button> <button onclick="getFlutter('flutter2')">Flutter2</button> <button onclick="getFlutter('flutter3')">Flutter3</button></p>
+<p><!-- 內建放入的 Dart 原始碼 --></p>
+<p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
+<p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=408231240&amp;gh_repo=CP2019&amp;gh_path=downloads/dart_ex/for&amp;theme=dark" width="800"></iframe></p>
