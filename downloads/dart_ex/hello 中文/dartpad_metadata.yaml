@@ -4,4 +4,4 @@ name: use Dart to implement æº«åº¦è½‰æ› Method
 mode: dart
 # ©Ò¥]§t¤Ş¤Jªºµ{¦¡¦WºÙ, ­Y¬°¯Â dart «h¥u¥]§t dart µ{¦¡, ­Y¬° html ¼Ò¦¡, «h¥[¤J index.htm »P style.css
 files:
-  - name: æº«åº¦è½‰æ›.dart
+  - name: hello ä¸­æ–‡.dart
