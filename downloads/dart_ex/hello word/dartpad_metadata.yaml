@@ -1,7 +1,7 @@
-# »¡©ú¦¹ yaml ÀÉ®×©Ò¤Ş¥Îµ{¦¡ªº¥Øªº
-name: use Dart to implement æº«åº¦è½‰æ› Method
-# ¤Ş¥Î¼Ò¦¡¬°¯Â dart ©Î html ¼Ò¦¡
+# èªªæ˜æ­¤ yaml æª”æ¡ˆæ‰€å¼•ç”¨ç¨‹å¼çš„ç›®çš„
+name: use Dart to implement hello word Method
+# å¼•ç”¨æ¨¡å¼ç‚ºç´” dart æˆ– html æ¨¡å¼
 mode: dart
-# ©Ò¥]§t¤Ş¤Jªºµ{¦¡¦WºÙ, ­Y¬°¯Â dart «h¥u¥]§t dart µ{¦¡, ­Y¬° html ¼Ò¦¡, «h¥[¤J index.htm »P style.css
+# æ‰€åŒ…å«å¼•å…¥çš„ç¨‹å¼åç¨±, è‹¥ç‚ºç´” dart å‰‡åªåŒ…å« dart ç¨‹å¼, è‹¥ç‚º html æ¨¡å¼, å‰‡åŠ å…¥ index.htm èˆ‡ style.css
 files:
   - name: hello word.dart
